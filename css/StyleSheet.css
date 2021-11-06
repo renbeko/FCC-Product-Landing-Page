@@ -15,6 +15,9 @@ body {
     height: 80px;
     display: block;
     background-color: #101010;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .inner_header {
@@ -78,7 +81,6 @@ body {
     color: RGB(0, 200, 5);
 }
 
-
 #header-img {
     width: 70px; height: 70px;
 }
@@ -89,6 +91,7 @@ body {
     text-align: center;
     font-size: 1.5em;
     margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 #form label {
@@ -129,13 +132,13 @@ body {
 
 .icon {
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     height: 100%;
     margin: 0 auto;
 }
 
 .desc {
-    width: 50%;
+    width: 55%;
     height: 100%;
     flex-direction: column;
     color: white;
@@ -147,9 +150,14 @@ section {
     flex-direction: column;
 }
 
+.grid .desc h2 {
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
 .grid .desc p {
-    vertical-align: middle;
-    display: flex;
+    display: block;
     font-size: 1rem;
     padding-top: 1.2rem;
     width: 150px;
@@ -239,7 +247,6 @@ section iframe {
     padding: 3px;
 }
 
-
 .inner_footer .footer_third {
     width: calc(21.6666666667 - 20px);
     margin-right: 40px;
@@ -275,7 +282,6 @@ section iframe {
     padding: 0 5px;
     font-size: 20px;
 }
-
 
 @media(max-width: 600px) {
     .footer .inner_footer {
